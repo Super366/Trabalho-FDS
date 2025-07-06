@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Matheus Gzk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Matheus Gzergorczick</h1>
+<br>
+<br>
+<br>
+    <p>
+        Bem-vindo a minha page, me chamo Matheus e vou contar um pouco sobre mim.
+        Sou de Ijuí, Rio Grande do Sul, tenho 23 anos e atualmente
+        estou cursando Engenharia de Software na Uninter e estou
+        gostando muito do curso, sou um pouco introvertido, não falo muito, 
+        mas quando me familiarizo com as pessoas, falo bastante, acredito que
+        Deus tem um plano para cada um de nós, tenho fé e sigo meu caminho da
+        melhor forma possível, sempre buscando aprender e evoluir.
+    </p>
+
+    <p>
+        Bom, meus interesses pessoais são comuns. Gosto de jogar no computador,
+        assistir séries e filmes, ler, ouvir música e aprender coisas novas, mas acima de tudo
+        treinar e me manter saudável. Seguir uma dieta, enfim, tento ser regrado ao máximo.
+        Acredito que isso é o mais importante.
+    </p>
+
+    <ul>
+        <li>Gosto de treinar, é uma das coisas que mais me faz sentir bem.</li>
+        <li>Também curto assistir séries que me fazem refletir, como: Black Mirror e Dark.</li>
+        <li>Gosto muito de livros, alguns deles são: Hábitos Atômicos, Rápido e Devagar,
+            O Poder do Hábito e Can't Hurt Me. (sim a maioria é de autoajuda, mas são bons)</li>
+        </li>
+    </ul>
+
+    <button onclick="mostrarMensagem()">Clique aqui para ver uma mensagem!</button>
+
+    <div id="mensagem"></div>
+
+    <script>
+        
+        function mostrarMensagem() {
+            const elementoMensagem = document.getElementById('mensagem');
+            
+            elementoMensagem.innerHTML = 
+            "O que faz andar o barco não é a vela enfunada, mas o vento que não se vê...(Platão)"
+            
+            elementoMensagem.style.display = "block";
+        }
+    </script>
+    <img src="./img/Chris-Bumstead.png" alt="Chris Bumstead" width="300" height="200">
+
+    <h2>Países que gostaria de visitar:</h2>
+    <table>
+        <tr>
+            <td>Japão</td>
+            <td><img src="./img/Japan.png" alt="Imagem do Japão" width="100"></td>
+        </tr>
+        <tr>
+            <td>Rússia</td>
+            <td><img src="./img/Rússia.jpg" alt="Imagem da Rússia" width="100"></td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td><img src="./img/EUA.png" alt="Imagem dos EUA" width="100"></td>
+        </tr>
+    </table>
+
+    <a href="https://earth.google.com/" target="_blank">Link para o Google Earth</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
